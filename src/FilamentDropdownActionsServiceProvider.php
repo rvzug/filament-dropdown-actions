@@ -4,7 +4,6 @@ namespace Rvzug\FilamentDropdownActions;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Rvzug\FilamentDropdownActions\Commands\FilamentDropdownActionsCommand;
 
 class FilamentDropdownActionsServiceProvider extends PackageServiceProvider
 {
@@ -18,8 +17,6 @@ class FilamentDropdownActionsServiceProvider extends PackageServiceProvider
         $package
             ->name('filament-dropdown-actions')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_filament_dropdown_actions_table')
-            ->hasCommand(FilamentDropdownActionsCommand::class);
+            ->hasViews();
     }
 }

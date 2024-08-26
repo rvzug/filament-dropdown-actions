@@ -30,8 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rvzug\\FilamentDropdownActions\\": "src/",
-            "Rvzug\\FilamentDropdownActions\\Database\\Factories\\": "database/factories/"
+            "Rvzug\\FilamentDropdownActions\\": "src/"
         }
     },
     "autoload-dev": {
