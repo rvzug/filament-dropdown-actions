@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Rvzug\FilamentDropdownActions\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentDropdownActionsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-dropdown-actions';
 
     public $description = 'My command';
 
