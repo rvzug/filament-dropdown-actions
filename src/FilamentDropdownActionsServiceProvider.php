@@ -2,6 +2,7 @@
 
 namespace Rvzug\FilamentDropdownActions;
 
+use Rvzug\FilamentDropdownActions\Commands\FilamentDropdownActionsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
